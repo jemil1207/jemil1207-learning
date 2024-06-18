@@ -1,0 +1,49 @@
+.regmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+  }
+  
+  .regsec {
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .reg {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .regsec input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .regsec button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffcc00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .regsec button:hover {
+    background-color: #ffae42;
+  }
+  

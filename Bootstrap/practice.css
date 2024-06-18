@@ -1,0 +1,129 @@
+.box1{
+    height: 50px;
+    background-color: aquamarine;
+}
+.all{
+    justify-content: space-between 5px;
+}
+.box2{
+    height: 50px;
+    background-color: rgb(25, 71, 56);
+}
+.box3{
+    height: 50px;
+    background-color: rgb(127, 150, 255);
+}
+.box4{
+    height: 50px;
+    background-color: rgb(255, 234, 127);
+}
+.box5{
+    height: 50px;
+    background-color: rgb(255, 127, 150);
+}
+.box6{
+    height: 50px;
+    background-color: rgb(255, 255, 127);
+}
+.box7{
+    height: 50px;
+    background-color: rgb(25, 71, 56);
+}
+.box8{
+    height: 50px;
+    background-color: rgb(127, 150, 255);
+}
+.box9{
+    height: 50px;
+    background-color: rgb(255, 234, 127);
+}
+.box10{
+    height: 50px;
+    background-color: rgb(255, 127, 150);
+}
+.box11{
+    height: 50px;
+    background-color: rgb(255, 255, 127);
+}
+.box12{
+    height: 50px;
+    background-color: rgb(127, 255, 136);
+}
+
+
+.s1{
+    height: 600px;
+    
+    background-color: aquamarine;
+}
+.s2{
+    height: 600px;
+    
+    background-color: blue;
+}
+.s21{
+    height: 300px;
+   background-color: blueviolet;
+   display: flex;
+}
+.c1{
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    
+}
+.c2{
+    height: 300px;
+    width: 300px;
+    background-color: azure;
+}
+.c3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(25, 125, 125);
+}
+.c4{
+    height: 300px;
+    width: 300px;
+    background-color: azure;
+}
+.{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(103, 189, 189);
+}
+.f{
+    height: 100px;
+    border: solid 1px black;
+}
+
+
+.se1{
+    height: 500px;
+    border: solid 1px black;
+        
+}
+.se22{
+height: 100px;
+background-color: blueviolet;
+}
+.king{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.image2{
+    width: 200px;
+}
+.map{
+    width: 100%;
+}
+.font{
+    font-size: xx-large;
+}
+.central{
+    font-size: x-large;
+}
+.one{
+    background-color: rgb(63, 6, 116);
+}

@@ -1,0 +1,140 @@
+.sent-message {
+  float: right;
+  margin-right: 10px;
+  color: #940508;
+}
+
+.received-message {
+  float: left;
+  margin-left: 10px;
+}
+.chatmain {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chatbox {
+  /* margin-left: 550px; */
+
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5mm;
+  height: 700px;
+  width: 600px;
+  border: solid 1px black;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.groupchat {
+  padding: 10px;
+  background-color: #ffcc00;
+  color: white;
+  font-weight: bold;
+  position: sticky;
+  top: 0px;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  /* margin-bottom: 200px; */
+  /* height: 200px;
+  border-radius: 50;
+  border: solid 1px rgb(174, 20, 20); */
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  /* position: absolute;
+  top: 700px; */
+  position: fixed;
+  bottom: 10px;
+  left: 550px;
+}
+/* .input-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+} */
+
+.chatinput {
+  width: 475px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #ffcc00;
+}
+.name {
+  font-size: 15px;
+}
+.delete {
+  border: solid 1px black;
+  border-radius: 5mm;
+  background-color: rgb(70, 66, 66);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  left: 650px;
+  top: 200px;
+}
+.confrimdelete {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cancel {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #ffcc00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.time {
+  font-size: 10px;
+  margin-top: 0 px;
+  float: right;
+}
+#sending {
+  border: solid 1px black;
+  margin: 10px;
+  padding: 10px;
+  background-image: linear-gradient(to left, #ff9966, #ff5e62);
+  color: white;
+  border-radius: 5mm;
+}
+.name {
+  float: left;
+}
+.chat {
+  float: left;
+}
