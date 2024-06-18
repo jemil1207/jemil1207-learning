@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <input type="text" id="input" />
+    <button id="add">Add</button>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>SINO</th>
+                <th>content</th>
+                <th>delete</th>
+                <th>edit</th>
+            </tr>
+        </thead>
+        <tbody id="display">
+
+        </tbody>
+    </table>
+
+
+    <script>
+        $(document).ready(function () {
+            let count = 0;
+            $("#add").click(function () {
+                count = count + 1
+                let input = $("#input").val();
+                let create = `<tr>
+                                <td>${count}</td>
+                                <td>${input}</td>
+                                <td><button class="delete">Delete</button></td>
+                                <td><button id="edit">Edit</button></td>
+                            </tr>`;
+                $("#display").append(create);
+                $("#input").val("");
+            });
+
+            // $(document).on('click', '#delete', function () {
+            //     $(this).closest('tr').remove();
+            // });
+
+            $(".delete").click(function () {
+                $(this).closest("tr").remove();
+            })
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=.., initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./p.css" />
+
+</head>
+
+<body>
+    <div id="box">
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#box").mouseenter(function () {
+                $("#box").css("background-color", "yellow")
+            })
+            $("#box").mouseleave(function () {
+                $("#box").css("background-color", "red")
+            })
+        })
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <input type="text" id="input" />
+    <button id="add">Add</button>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>SINO</th>
+                <th>content</th>
+                <th>delete</th>
+                <th>edit</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Existing row -->
+            <tr>
+                <td>1</td>
+                <td>Sample content</td>
+                <td><button class="delete-btn">Delete</button></td>
+                <td><button class="edit-btn">Edit</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        $(document).ready(function () {
+            let count = 1; // Initial count
+            $("#add").click(function () {
+                let inputValue = $("#input").val();
+                let newRow = `<tr>
+                                <td>${count + 1}</td>
+                                <td>${inputValue}</td>
+                                <td><button class="delete-btn">Delete</button></td>
+                                <td><button class="edit-btn">Edit</button></td>
+                            </tr>`;
+                $("#table-body").append(newRow);
+                count++; // Increment count for next row
+            });
+
+            // Add event listeners for dynamically added delete buttons
+            $("#table-body").on("click", ".delete-btn", function () {
+                $(this).closest("tr").remove();
+            });
+
+            // Add event listeners for dynamically added edit buttons
+            $("#table-body").on("click", ".edit-btn", function () {
+                // Add your edit functionality here
+                console.log("Edit button clicked");
+            });
+        });
+    </script>
+</body>
+
+</html>
