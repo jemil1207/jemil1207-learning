@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./table.css"/>
+</head>
+<body>
+    <div id="demo"></div>
+
+
+    <script>
+    let people=[    {name: "ajay",age:22},
+                    {name: "arun",age:23},
+                    {name: "manish",age:24},
+                    {name: "manish",age:24}
+                ];
+
+                let table=
+                `<table>
+                    <tr>
+                    <th>s.no</th>
+                    <th>name</th>
+                    <th>age</th>
+                    </tr>
+
+                    ${people.map((person,index)=>
+                   
+                   ` <tr>
+                       <td>${index+1}</td> 
+                       <td>${person.name}</td> 
+                       <td>${person.age}</td>
+                    </tr>
+                    `).join(``)}
+                </table>` 
+                document.getElementById("demo").innerHTML=table
+    </script>
+</body>
+</html>

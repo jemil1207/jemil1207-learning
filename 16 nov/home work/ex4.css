@@ -1,0 +1,28 @@
+.two{
+    background-color: blue;
+}
+.three{
+    border: solid;
+}
+.four{
+    border: dotted;
+}
+.five{
+    border: double;
+}
+.font{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.center{
+    text-align: center;
+}
+.eight{
+    border: solid;
+}
+.nine{
+    border: solid;
+    width: 500px;
+    height: 50px;
+   
+}

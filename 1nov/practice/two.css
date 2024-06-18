@@ -1,0 +1,10 @@
+div{
+    background-color: rgba(250, 245, 245, 0.877);
+}
+span{
+    background-color: rgb(35, 155, 143);
+}
+.div{
+    display: inline-block;
+    height: 100px;
+}

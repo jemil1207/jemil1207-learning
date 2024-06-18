@@ -1,0 +1,42 @@
+ {
+    "data":[
+        {
+            "image":"./images/p2603378.jpg",
+            "name" :"causual dress",
+            "prize":200,
+            "size":"L",
+            "b":"Add to cart",
+            "id":"1"
+        },
+        {
+
+            "image":"./images/p2603382.jpg",
+            "name":"formal dress",
+            "prize":800,
+            "size":"XL",
+            "b":"Add to cart"
+            ,
+            "id":"2"
+        },
+        {
+
+            "image":"./images/-473Wx593H-469129407-black-MODEL4.webp",
+            "name":"formal dress",
+            "prize":850,
+            "size":"XXL",
+            "b":"Add to cart",
+            "id":"3"
+        }
+
+        ,
+        {
+
+            "image":"./images/-473Wx593H-461119105-blue-MODEL.webp",
+            "name":"formal dress",
+            "prize":800,
+            "size":"XL",
+            "b":"Add to cart",
+            "id":"4"
+        }
+    ]
+}

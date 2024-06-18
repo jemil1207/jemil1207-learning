@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfunction()">click</button>
+    <button onclick="sum()">click here</button>
+
+    <button onclick="change()">change</button>
+    <p id="para" style="background-color: aquamarine;"> hi</p>
+
+    <input type="text" id="name"/>
+    <button  onclick="clk()">submit</button>
+    <p id="empty"></p>
+
+    <script>
+        let a=10
+         let b=20
+        function myfunction(){
+            
+            console.log("addition" ,a+b)
+            console.log("sub",a-b)
+            console.log("multi",a-b)
+            console.log("div",a/b)
+        }
+
+        // function myfunction(a,b){
+        //     let c=a+b
+        //     console.log(c)
+        // }
+
+
+        function sum(){
+
+            let a=Number(prompt("enter a number"));
+            let b =Number(prompt("enter a number"))
+           
+            console.log("addition" ,a+b)
+            console.log("sub",a-b)
+            console.log("multi",a-b)
+            console.log("div",a/b)
+
+        }
+
+
+        function change() {
+
+            // let p =document.getElementById("para")
+            // p.innerHTML="hello"
+            // p.innerText="hello"
+            // p.textContent="hello"
+            let p =document.getElementById("para")
+            p.style.backgroundColor="red"
+            p.style.border="solid 1px black"
+            p.innerHTML="hello"
+        }
+
+
+        function clk (){
+           let a= document.getElementById("name").value
+            let b=document.getElementById("empty")
+            b.innerHTML=a
+                
+        }
+    </script>
+</body>
+</html>

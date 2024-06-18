@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        table,td,th{
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+
+let apiURL ='https://reqres.in/api/users?page=2'
+let fetchData=fetch(apiURL)
+fetchData .then(response=>{
+    if(!response.ok){
+    throw new Error('HTTP Error! status:${response.status}');
+}
+    return response.json()
+})
+.then(data=>{
+    console.log('Data:',data);
+
+    let table=
+    `<table>
+        <tr>
+            <td>s.no</td>
+            <td>id</td>
+            <td>email</td>
+            <td>first_name</td>
+            <td>last_name</td>
+            <td>avatar</td>
+        </tr>
+        ${data.data.map((items,index)=> `
+                
+        <tr>
+            
+            <td>${index }</td>
+            <td>${items.id}</td>
+            <td>${items.email}</td>
+            <td>${items.first_name}</td>
+            <td>${items.last_name}</td>
+            <td><img src="${items.avatar}"/></td>
+            <td> <button class="click"> delete </button></td>
+
+        </tr>
+    `
+    
+    ).join(``)}
+
+
+    </table>`
+  
+        $(document).ready(function(){
+            $(".click").click(function(){
+                $(this).parents('tr').hide()
+            
+                
+            })
+            
+})
+        document.getElementById("demo").innerHTML=table
+})
+.catch(err=>{
+    console.error("Error:",err.message);
+
+})
+    </script>
+</body>
+</html>

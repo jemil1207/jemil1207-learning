@@ -1,0 +1,7 @@
+# t=int(input())
+# e=int(input())
+# m=int(input())
+# s=int(input())
+# ss=int(input())
+# average=((t+e+m+s+ss)/5)
+# print(average)

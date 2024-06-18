@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    
+<p id="demo"></p>
+
+    <script>
+let apiURL ='https://jsonplaceholder.typicode.com/todos'
+let fetchData=fetch(apiURL)
+fetchData .then(response=>{
+    if(!response.ok){
+    throw new Error('HTTP Error! status:${response.status}');
+}
+    return response.json()
+})
+.then(data=>{
+    console.log('Data:',data);
+   
+
+let table=
+`<table>
+    <tr>
+        <td>s.no</td>
+        <td>userid</td>
+        <td>id</td>
+        <td>title</td>
+        <td>completed</td>
+    </tr>
+    
+    ${data.map((items,index)=>{
+if(items.completed==true && items.id<=70){
+    return  `
+        <tr> 
+            <td>${index+1}</td>
+            <td>${items.userId}</td>
+            <td>${items.id}</td>
+            <td>${items.title}</td>
+          <td>${items.completed}</td>
+        </tr>
+        `
+}
+    
+    }).join(``)
+    }
+    </table>`
+    
+    {
+    document.getElementById("demo").innerHTML=table
+    }
+})
+.catch(err=>{
+    console.error("Error:",err.message);
+})
+
+  
+    </script>
+</body>
+</html>

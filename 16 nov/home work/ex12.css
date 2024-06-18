@@ -1,0 +1,11 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(79, 179, 179);
+
+}
+.first{
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <select id="country" onchange="clk()">
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+        <option value="america">america</option>
+    </select>
+
+
+
+    <p id="display1"></p>
+    <p id="display2"></p>
+    <p id="display3"></p>
+    <p id="display4"></p>
+
+    <script>
+
+        let country1 = [
+            {
+                name: "usa",
+                population: 100000,
+                capital: "newyork",
+                currency: "dollar"
+            },
+            {
+                name: "india",
+                population: 100000,
+                capital: "newDelhi",
+                currency: "rupees"
+            },
+            {
+                name: "america",
+                population: 100000,
+                capital: "new",
+                currency: "rupees"
+            }
+        ]
+
+        function clk() {
+            let country = document.getElementById("country").value;
+
+
+            let display1 = document.getElementById("display1")
+            let display2 = document.getElementById("display2")
+            let display3 = document.getElementById("display3")
+            let display4 = document.getElementById("display4")
+
+            for (let i = 0; i < country1.length; i++) {
+                if (country == country1[i].name) {
+                    console.log(country1[i])
+                    display1.innerHTML = "country name " + country1[i].name
+                    display2.innerHTML = country1[i].population
+                    display3.innerHTML = country1[i].capital
+                    display4.innerHTML = country1[i].currency
+                }
+
+            }
+
+
+
+
+        }
+    </script>
+
+
+</body>
+
+</html>

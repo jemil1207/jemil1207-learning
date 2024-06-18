@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div id="all">
+        <h1>this is para</h1>
+    </div>
+ -->
+
+    <input type="text" id="textinput" />
+    <button onclick="clk()">submit</button>
+    <ol id="output">
+
+    </ol>
+
+    <input type="radio" id="radio" />
+    <script>
+
+        //  let para=document.createElement("p")
+        //  para.innerHTML="parpagraph"
+
+        //  document.getElementById("all").append(para)
+
+        function clk() {
+            let input = document.getElementById("textinput").value
+            let create = document.createElement("li")
+            create.innerHTML = input
+
+            let output = document.getElementById("output")
+            output.appendChild(create)
+            document.getElementById("textinput").value = " "
+
+            let radio = document.getElementById("radio")
+            create.append(radio)
+
+        }
+
+    </script>
+</body>
+
+</html>

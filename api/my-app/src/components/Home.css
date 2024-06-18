@@ -1,0 +1,36 @@
+.image{
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.rate{
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.all{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+    /* text-align: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   justify-content: center;
+    gap: 80px;
+    margin: 150px; */
+}
+.allitem{
+    box-shadow: 10px 10px rgb(38, 48, 52);
+    background-color: rgb(247, 245, 226);
+    margin: 15px;
+    width: 20%;
+   padding: 20px;
+   box-shadow: 50px;
+   padding-bottom: 30px;
+    border: solid black;
+}

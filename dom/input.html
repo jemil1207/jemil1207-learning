@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="first"/>
+    <input type="number" id="second"/>
+    <button onclick="clk()">submit</button>
+    <p id="empty"></p>
+    <p id="e1"></p>
+    <p id="e2"></p>
+    <p id="e3"></p>
+    <p id="final"></p>
+
+    <script>
+        function clk(){
+            let a=parseInt(document.getElementById("first").value)
+            let b=parseInt(document.getElementById("second").value)
+            let c=document.getElementById("empty")
+                c.innerHTML=a+b
+           let d=document.getElementById("e1")
+                d.innerHTML=a-b
+            let e=document.getElementById("e2")
+                e.innerHTML=a*b
+
+          let f=document.getElementById("e3")
+                f.innerHTML=a/b
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.all{
+    
+    background-color: aqua;
+}
+.head{
+    height: 50px;
+    background-color: bisque;
+    text-align: center;
+    border: solid;
+    margin-bottom: 1px;
+}
+.search{
+    height: 50px;
+    border: solid;
+    background-color: blue;
+    text-align: center;
+    padding-top: 50px;
+    position: sticky;
+    top: 0;
+   
+}
+.content{
+    border: solid;
+    display:inline-block;
+    height: 300px;
+    background-color: azure;
+    width: 25%;
+}
+.main
+{
+display: inline-block; height: 300px;
+background-color: azure;
+width: 50%;
+border: solid;
+
+}
+.con{
+    border: solid;
+    display:inline-block;
+    height: 300px;
+    background-color: azure;
+    width: 25%;
+    position: fixed;
+    margin-left: 2px;
+}
+#icon{
+    position: absolute;
+    
+}
+.container{
+    
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //   async  function fun(){
+
+        //         return 10
+        //     }
+
+        //     console.log(fun())
+
+
+        // async  function fun(){
+
+        //         return new Promise((resolve)=>{
+        //             setTimeout(()=>{
+        //                 resolve(10)
+        //                 console.log("start")
+        //             },3000 )
+
+        //         })
+        //                 }
+        //                 async function myfun(){
+        //                     const result=await fun()
+        //                     console.log(result)
+        //                     console.log("completed")
+        //                 }myfun() 
+
+
+
+        let myPromise= new Promise(function(resolve,reject){
+            let x=0
+            if(x==0){
+                resolve("ok")
+            }
+            else{
+                reject("error")
+            }
+        })
+
+        console.log(myPromise)
+    </script>
+</body>
+
+</html>

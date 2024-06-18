@@ -1,0 +1,17 @@
+h1{
+    font-style: oblique;
+    color: rgb(116, 116, 232);
+}
+label{
+    color: rgb(189, 62, 83);
+}
+button{
+    color: black;
+
+}
+.div{
+    background-color: chartreuse;
+}
+h3{
+    color: chartreuse;
+}

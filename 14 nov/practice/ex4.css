@@ -1,0 +1,73 @@
+.box{
+    border: solid;
+    height: 1000px;
+    width: 500px;
+    background-color: aquamarine;
+    position: relative;
+}
+.one{
+   
+    height: 50px;
+    width: 50px;
+    /* display: inline-block; */
+    /* border-top: none;
+    border-left: none; */
+    background-color: rgb(132, 0, 255);
+    float: left;
+}
+.two{
+   
+    height: 50px;
+    width: 50px;
+    float: right;
+    top: 20px;
+    
+    background-color: brown;
+}
+.big{
+    clear: both;
+}
+.three{
+   
+    height: 50px;
+    width: 50px;
+  float: right;
+    background-color: rgb(42, 165, 89);
+   
+}
+.four{
+    float: right;
+    height: 50px;
+    width: 50px;
+    float: right;
+    bottom: 0;
+   
+    
+    background-color: rgb(138, 165, 42);
+}
+.five{
+   
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-color: rgb(42, 130, 165);
+}
+.bird{
+    float: right;
+    width: 30%;
+}
+.para{
+    float: left;
+   width: 70%;
+}
+.king{
+    width: 200px;
+    height: 200px;
+    overflow: scroll ;
+    background-color: aquamarine;
+    
+}
+.small{
+   
+  
+}

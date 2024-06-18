@@ -1,0 +1,33 @@
+.first{
+    border: solid;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    border-color: rgb(53, 147, 67);
+}
+.sec{
+    border: solid;
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    border-color: rgb(53, 147, 67);
+}
+.third{
+    border: solid;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    border-color: rgb(53, 147, 67);
+    margin-top: 5%;
+}
+.fourth{
+    border: solid;
+    
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 300px;left: 255px;
+   
+    border-color: rgb(53, 147, 67);
+}

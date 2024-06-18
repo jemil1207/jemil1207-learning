@@ -1,0 +1,6 @@
+.div{
+    background : teal url("./cat.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+}

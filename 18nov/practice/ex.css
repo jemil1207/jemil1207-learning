@@ -1,0 +1,116 @@
+.all{
+    background-color: darkgreen;
+    
+}
+.light{
+    height: 2cm;
+    width: 50%;
+    background-color: rgb(169, 229, 247);
+    margin-bottom: 5px;
+    
+}
+.yellow{
+    height: 5cm;
+    width: 25%;
+    background-color: rgb(235, 252, 49);
+    margin-bottom: 3px;
+    
+    
+    
+}
+.orange{
+    height: 3cm;
+    width: 25%;
+    background-color: rgb(244, 233, 147);
+    display: flex;
+    
+}
+.yo{ 
+  flex-direction: column;
+  height: 10cm;
+  flex-wrap: wrap;
+  display: flex;
+  
+}
+.blue{
+    height: 8cm;
+    width: 23%;
+    background-color: rgb(7, 82, 245);
+    position: absolute;
+    right: 50%;
+    
+    
+    
+}
+.item1{
+    height: 2cm;
+    width: 22%;
+    background-color: rgb(244, 233, 147);
+    position: absolute;
+    top: 1%; right: 25%;
+    
+}
+.item2{
+    height: 2.5cm;
+    width: 24%;
+    justify-content: space-between 2%;
+    background-color: rgb(7, 82, 245);
+    position: absolute;
+    top: 1%; right: 0%;
+    margin-left: 2px;
+    
+    
+}
+.item3{
+    height: 2cm;
+    width: 22%;
+    justify-content: space-between 2%;
+    background-color: rgb(7, 82, 245);
+    position: absolute;
+    top: 2.5cm; right: 25%;
+    margin-left: 2px;
+    
+    
+}
+.item4{
+    height: 2.3cm;
+    width: 24%;
+    justify-content: space-between 2%;
+    background-color: rgb(235, 252, 49);
+    position: absolute;
+    top: 3cm; right: 0%;
+    margin-left: 2px;
+    
+    
+}
+.item5{
+    height: 2.5cm;
+    width: 22%;
+    justify-content: space-between 2%;
+    background-color: rgb(235, 252, 49);
+    position: absolute;
+    top: 4.8cm; right: 25%;
+    margin-left: 2px;
+    
+    
+}
+.item6{
+    height: 1.7cm;
+    width: 24%;
+    justify-content: space-between 2%;
+    background-color: rgb(244, 233, 147);
+    position: absolute;
+    top: 5.6cm; right: 0%;
+    margin-left: 2px;
+    
+    
+}
+.item7{
+    height: 2.8cm;
+    width: 47%;
+    background-color: rgb(169, 229, 247);
+    margin-bottom: 5px;
+    position: absolute;
+    top: 7.6cm; right: 0%;
+    margin-left: 2px;
+    

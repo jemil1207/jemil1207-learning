@@ -1,0 +1,15 @@
+.king{
+    border: 2px dotted;
+    text-align: center;
+    margin-top: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.form{
+    border: 2px dotted;
+    margin: 1cm;
+    text-align: center;
+}
+.h4{
+    text-align: center;
+}

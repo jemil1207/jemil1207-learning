@@ -1,0 +1,37 @@
+.head{
+    border: solid;
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.navigation{
+    border: solid;
+    text-align: center;
+    margin-top:0cm;
+    margin-bottom: 0%;
+    
+}
+.index{
+    border:solid;
+    display: inline-block;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 5cm;
+    padding-bottom: 5cm;
+    margin-right: 0%;
+}
+.content{
+    display: inline-block;
+    border: solid;
+    padding-top: 6cm;
+    padding-bottom: 6cm;
+    width: 32.2cm;
+    text-align:center ;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.foot{
+    border: solid;
+    text-align: center;
+    padding: 1cm;
+}

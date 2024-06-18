@@ -1,0 +1,66 @@
+
+
+  .regall{
+  
+  text-align: center;
+  background-color: #EEF5FF;
+  border: solid;
+  border-radius: 5mm;
+    color:#176B87;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    position: relative;
+  }
+  .reg{
+   margin-left: 25px;
+   margin-right: 25px;
+    font-size: 50px;
+    margin-top:10 px;
+    background-color: #EEF5FF;
+  }
+  .ruser{
+    background-color: #EEF5FF;
+    margin-top: 40px;
+    border-radius: 5mm;
+    padding: 10px;
+    margin-left: 10px;
+    padding-right: 50px;
+    border: solid #176B87;
+  }
+  .rpass{
+    background-color: #EEF5FF;
+    margin-left: 20px;
+    border-radius: 0%;
+    padding: 10px;
+    padding-right: 50px;
+    border: solid #176B87;
+    border-radius: 5mm;
+  }
+  .regbutton{
+  
+    color:#EEF5FF;
+    font-size: 20px;
+    background-color: #176B87;
+    
+    padding: 10px  15px;
+   
+    margin-top: 40px  ;
+  }
+  .username{
+    font-size: 20px;
+    background-color: #EEF5FF;
+  }
+  .password{
+    background-color: #EEF5FF;
+    font-size: 20px;
+  }
+  .reglink{
+    padding-left: 10px;
+    color:red;
+    background-color: #EEF5FF;
+    font-size: 20px;
+  }
+  

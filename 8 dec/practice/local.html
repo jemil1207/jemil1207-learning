@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="name"> name</h2>
+    <h2 id="num"> id</h2>
+    <button onclick="clearall()"> clearall</button>
+    <button onclick="clearname()"> clearname</button>
+
+
+    <script>
+       let a= document.getElementById("name")
+       let b=  document.getElementById("num")
+
+    //     let name =prompt("enter your name")
+    //     let age =prompt("enter your age")
+
+    //     localStorage.setItem("userName",name+ " IS MY NAME")
+    //     localStorage.setItem("userage",age + "IS MY AGE")
+
+
+    //    let localName=localStorage.getItem("userName") 
+    //    a.innerHTML= localName
+    //     let localage=localStorage.getItem("userage")
+    //     b.innerHTML= localage
+
+
+    let students = ["Vikas", "Utsav", "Pranjal",  
+                        "Aditya", "Arya"] 
+        
+        localStorage.setItem("arr", students)
+
+    </script>
+    
+</body>
+</html>
+
+

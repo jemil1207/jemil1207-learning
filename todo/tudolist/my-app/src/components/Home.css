@@ -1,0 +1,87 @@
+.image{
+
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color: rgb(20, 18, 18);
+    border-radius:50mm;
+    
+}
+
+.header{
+    padding-top: 5px;
+   
+    text-align: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 25px;
+}
+.listall{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.all{
+     
+    
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    margin: px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5mm;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.del{
+    margin-left: 25px;
+    color: #EEF5FF;
+    font-size: 20px;
+    background-color: #176B87;
+    padding-left: 10px;
+    padding-right:10px;
+   
+}
+.edit{
+    color:#EEF5FF;
+    font-size: 20px;
+   background-color: #176B87;
+    padding-left: 10px;
+    padding-right:10px;
+    
+    margin-left: 25px;
+}
+.input{
+    padding: 10px;
+    border-color: #176B87;
+    border-radius: 5mm;
+    
+}
+.addbutton{
+    margin-left: 10px;
+    background-color:#EEF5FF ;
+    padding: 7px 10px;
+    color: #176B87;
+}
+.table{
+    
+    padding: 20px;
+    background-color: #EEF5FF;
+    border-radius: 5mm;
+    margin-top: 50px;
+}
+.index{
+    color:#033f53;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content{
+   color: #033f53;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}

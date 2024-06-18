@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="add()">add</button>
+    <button onclick="del()">remove</button>
+
+    <div>hello</div>
+    <div>world</div>
+
+
+    <script>
+        function add() {
+            let a = "newpage"
+            let add = document.createElement("p")
+            add.innerHTML = a
+            document.body.appendChild(add)
+            console.log(add)
+        }
+
+
+
+        function del() {
+
+            let all = document.querySelector("div")
+            console.log(all
+-  
+            )
+
+            let paragraphs = document.querySelectorAll('p');
+
+            console.log(paragraphs)
+
+            // if(paragraphs.length>0){
+            // let lastPara = paragraphs[paragraphs.length - 1];
+            // lastPara.parentNode.removeChild(lastPara);
+            // }
+        }
+    </script>
+</body>
+
+</html>

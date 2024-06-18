@@ -1,0 +1,62 @@
+.king{
+    display: flex;
+   
+}
+
+
+.box1{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+}
+.box2{
+    background-color: rgb(100, 217, 164);
+    height: 100px;
+    width: 100px;
+}
+.box3{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.box4{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.box5{
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+}
+.box6{
+    background-color: coral;
+    height: 100px;
+    width: 100px;
+}
+.box7{
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+}
+.box8{
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+}
+.box9{
+    background-color: greenyellow;
+    
+        height: 100px;
+        width: 100px;
+    }
+    .box10{
+        background-color: rgb(216, 239, 131);
+        height: 100px;
+        width: 100px;}
+    
+        @media screen {
+            .king{
+                flex-wrap: wrap;
+            }
+        }

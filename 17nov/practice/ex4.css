@@ -1,0 +1,89 @@
+.first{
+    background-color: rgb(137, 34, 89);
+    height:100px;
+}
+.all{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.second{
+    background-color: deeppink;
+    height: 600px;
+    width: 40%;
+    margin-top: 3px;
+   
+  
+}
+
+.third{
+    height: 300px;
+    width:60%;
+    background-color: rgb(168, 139, 96);
+    margin-top: 3px;
+}
+.four{
+    height: 300px;
+    width: 60%;
+    background-color: rgb(200, 180, 151);
+
+}
+.last{
+    background-color: rgb(137, 34, 89);
+    height:100px;
+}
+
+
+@media only screen and ( max-width:776px){
+    .first{
+        background-color: rgb(187, 70, 132);
+    height:100px;
+    }
+    .second{
+        background-color: rgb(43, 15, 30);
+        height: 400px;px;
+        width: 100%;
+        margin-top: 3px;
+      
+    }
+    .king{
+        
+        width: 100%;
+        display: flex;
+        
+    }
+    .third{
+        height: 200px;
+        width:50%;
+        background-color: rgb(102, 168, 96);
+        margin-top: 3px;
+        
+    }
+    .four{
+        height: 200px;
+        width: 50%;
+        background-color: rgb(157, 113, 48);
+        margin-top: 3px;
+    }
+    .last{
+        background-color: rgb(193, 123, 160);
+        height:100px;
+        width: 100%;
+    }
+    
+}
+@media only screen and ( max-width:575px){
+
+    .first{
+        background-color: rgb(187, 70, 132);
+    height:100px;
+    }
+    .second{
+        background-color: rgb(43, 15, 30);
+        height: 400px;px;
+        width: 100%;
+        margin-top: 3px;
+      
+    }
+}
+

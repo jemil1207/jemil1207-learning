@@ -1,0 +1,66 @@
+/* *{
+  background-color: whitesmoke
+}
+
+.regall{
+
+text-align: center;
+background-color: white;
+border: solid;
+border-radius: 25%;
+  color:blue;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  position: relative;
+}
+.reg{
+ margin-left: 25px;
+ margin-right: 25px;
+  font-size: 50px;
+  margin-top:10 px;
+  background-color: white;
+}
+.ruser{
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 5mm;
+  padding: 10px;
+  margin-left: 10px;
+  padding-right: 50px;
+  border: solid blue;
+}
+.rpass{
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 0%;
+  padding: 10px;
+  padding-right: 50px;
+  border: solid blue;
+  border-radius: 5mm;
+}
+.regbutton{
+
+  color: blue;
+  font-size: 20px;
+  border: solid blue;
+  padding-left: 10px;
+  padding-right:10px;
+  background-color: white;
+  margin-top: 40px  ;
+}
+.username{
+  font-size: 20px;
+  background-color: white;
+}
+.password{
+  background-color: white;
+  font-size: 20px;
+}
+.reglink{
+  padding-left: 10px;
+  color:red;
+  font-size: 20px;
+} */
